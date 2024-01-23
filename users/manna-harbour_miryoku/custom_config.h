@@ -21,9 +21,9 @@ KC_LGUI,          K20,  K21,  K22,  K23,  K24,         K25,  K26,  K27,  K28,  K
 
 
 #define MIRYOKU_LAYER_BASE \
-KC_Q,              KC_W,              KC_F,              KC_P,              KC_B,              KC_J,              KC_L,              KC_U,              KC_Y,              LSFT(KC_1),        \
-LCTL_T(KC_A),      LALT_T(KC_R),      LGUI_T(KC_S),      LSFT_T(KC_T),      KC_G,              KC_M,              LSFT_T(KC_N),      LGUI_T(KC_E),      LALT_T(KC_I),      LCTL_T(KC_O),      \
-KC_Z,              KC_X,              KC_C,              KC_D,              KC_V,              KC_K,              KC_H,              KC_COMM,           KC_DOT,            KC_SCLN,           \
+KC_Q,              KC_W,              KC_F,              KC_P,              KC_B,              KC_J,              KC_L,              KC_U,              KC_Y,              LSFT(KC_1),            \
+LCTL_T(KC_A),      LALT_T(KC_R),      LGUI_T(KC_S),      LSFT_T(KC_T),      KC_G,              KC_M,              LSFT_T(KC_N),      LGUI_T(KC_E),      LALT_T(KC_I),      LCTL_T(KC_O),          \
+LT(U_BUTTON,KC_Z), KC_X,              KC_C,              KC_D,              KC_V,              KC_K,              KC_H,              KC_COMM,           KC_DOT,            LT(U_BUTTON,KC_SCLN),  \
 U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_SYM,KC_TAB),  LT(U_NAV,KC_SPC),  LT(U_NUM,KC_BSPC), LT(U_SYM,KC_ENT),  LT(U_FUN,KC_DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
